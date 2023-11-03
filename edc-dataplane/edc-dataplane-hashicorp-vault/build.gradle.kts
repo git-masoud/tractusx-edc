@@ -25,6 +25,8 @@ plugins {
 
 dependencies {
     implementation(project(":edc-dataplane:edc-dataplane-base"))
+    implementation(project(":edc-extensions:transferprocess-sftp-common"))
+    implementation(project(":edc-extensions:transferprocess-sftp-client"))
     runtimeOnly(libs.edc.vault.hashicorp)
     runtimeOnly(project(":edc-extensions:edr:edr-cache-sql"))
     runtimeOnly(libs.edc.transaction.local)
