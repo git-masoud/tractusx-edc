@@ -28,6 +28,7 @@ public class SftpClientExtension implements ServiceExtension {
 
     @Override
     public void initialize(ServiceExtensionContext context) {
+        context.getMonitor().info("Sftp dataplane is initiated");
         SftpDataSinkFactory sftpDataSinkFactory = new SftpDataSinkFactory();
         SftpDataSourceFactory sftpDataSourceFactory = new SftpDataSourceFactory();
         SftpClientWrapperFactory sftpClientWrapperFactory = new SftpClientWrapperFactoryImpl();
