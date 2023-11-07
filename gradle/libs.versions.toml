@@ -71,6 +71,7 @@ edc-iam-mock = { module = "org.eclipse.edc:iam-mock", version.ref = "edc" }
 edc-policy-engine = { module = "org.eclipse.edc:policy-engine", version.ref = "edc" }
 edc-auth-tokenbased = { module = "org.eclipse.edc:auth-tokenbased", version.ref = "edc" }
 edc-auth-oauth2-core = { module = "org.eclipse.edc:oauth2-core", version.ref = "edc" }
+edc-auth-mock = { module = "org.eclipse.edc:iam-mock", version.ref = "edc" }
 edc-auth-oauth2-daps = { module = "org.eclipse.edc:oauth2-daps", version.ref = "edc" }
 edc-auth-oauth2-client = { module = "org.eclipse.edc:oauth2-client", version.ref = "edc" }
 edc-transaction-local = { module = "org.eclipse.edc:transaction-local", version.ref = "edc" }
@@ -103,6 +104,7 @@ edc-controlplane-callback-dispatcher-http = { module = "org.eclipse.edc:callback
 edc-spi-dataplane-dataplane = { module = "org.eclipse.edc:data-plane-spi", version.ref = "edc" }
 edc-spi-dataplane-transfer = { module = "org.eclipse.edc:transfer-data-plane-spi", version.ref = "edc" }
 edc-spi-dataplane-selector = { module = "org.eclipse.edc:data-plane-selector-spi", version.ref = "edc" }
+edc-spi-dataplane-selector-api = { module = "org.eclipse.edc:data-plane-selector-api", version.ref = "edc" }
 edc-dpf-transferclient = { module = "org.eclipse.edc:data-plane-transfer-client", version.ref = "edc" }
 edc-dpf-selector-client = { module = "org.eclipse.edc:data-plane-selector-client", version.ref = "edc" }
 edc-dpf-selector-spi = { module = "org.eclipse.edc:data-plane-selector-spi", version.ref = "edc" }

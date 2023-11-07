@@ -52,6 +52,8 @@ dependencies {
     runtimeOnly(libs.edc.dsp)
     runtimeOnly(libs.edc.spi.jwt)
     runtimeOnly(libs.bundles.edc.dpf)
+    runtimeOnly(libs.edc.spi.dataplane.selector.api)
+
 
     runtimeOnly(libs.edc.ext.http)
     runtimeOnly(libs.bundles.edc.monitoring)
